@@ -1,0 +1,17 @@
+
+
+@import "../WD11_EXERCISE20_GUINDANAO/node_modules/bootstrap/scss/functions";
+@import "../WD11_EXERCISE20_GUINDANAO/node_modules/bootstrap/scss/variables";
+
+
+$original-theme-colors: (
+    "rock" : rgb(1, 198, 149),
+    "paper" : rgb(232, 181, 87),
+    "scissors" : rgb(251, 29, 122),
+);
+    
+
+$theme-colors: map-merge($original-theme-colors , $theme-colors);
+
+
+@import "../WD11_EXERCISE20_GUINDANAO/node_modules/bootstrap/scss/bootstrap.scss";
